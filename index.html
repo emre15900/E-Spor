@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">	    
     <link rel="stylesheet" href="css/sass.css">
+    <link rel="stylesheet" href="css/plugin.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 
     <title>E-PREMADE</title>
@@ -25,7 +26,7 @@
             </div>
             <div class="right-header">
               <ul>
-                <li class="list"><a href="#" class="nav-toggle">Home</a></li>
+                <li class="list"><a href="#" class="nav-toggle active"><span>Home</span></a></li>
                 <li class="list"><a href="#" class="nav-toggle">Blog</a></li>
                 <li class="list"><a href="#">Gallery</a></li>
                 <li class="list"><a href="#">Pages</a></li>
@@ -47,22 +48,72 @@
 
               <ul class="menu__box">
                 <li class="logo"><a href="#"><img src="https://promo-theme.com/plaxer/wp-content/uploads/2019/12/logo-light.png" alt=""></a></li>
-                <li><a class="menu-item" href="javascript:void(0)">Borsa</a></li>
-                <li><a class="menu-item" href="javascript:void(0)">Ürünler</a></li>
-                <li><a class="menu-item" href="javascript:void(0)">Şirket</a></li>
-                <li><a class="menu-item" href="javascript:void(0)">Destek</a></li>
+                <li><a class="menu-item" href="javascript:void(0)">Home</a></li>
+                <li><a class="menu-item" href="javascript:void(0)">Blog</a></li>
+                <li><a class="menu-item" href="javascript:void(0)">Gallery</a></li>
+                <li><a class="menu-item" href="javascript:void(0)">Pages</a></li>
+                <li><a class="menu-item" href="javascript:void(0)">Shop</a></li>
+                <li><a class="menu-item" href="javascript:void(0)">Contacts</a></li>
+                <li><a class="menu-item" href="javascript:void(0)">Elements</a></li>
               </ul>
+              <div class="social-section">
+                <ul>
+                  <li class="mobile-social"><a href="https://www.linkedin.com/in/emre-syn/" class="bell"><i class="fab fa-linkedin"></i></a></li>
+                  <li class="mobile-social"><a href="https://github.com/emre15900" class="bell"><i class="fab fa-github"></i></a></li>
+                  <li class="mobile-social"><a href="https://www.instagram.com/emre.syn1" class="bell"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </header>
-    
+
     <!-- SLIDER -->
     <section class="section-slider">
-      <div class="container-fluid">
-        <img src="https://promo-theme.com/plaxer/wp-content/uploads/2019/12/bg.jpg" class="slider-image-1" alt="">
-      </div>
+          <div class="swiper-container mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="content wow fadeInLeft" data-wow-delay=".2s">
+                  <span class="number">01</span>
+                  <h2 class="hood">Games with idea & <br class="empty-br"> memorable design</h2>
+                  <a href="" class="watch-button">Watch now</a>
+                </div>
+                <img src="https://promo-theme.com/plaxer/wp-content/uploads/2019/12/bg.jpg" 
+                class="slider-image" alt="">
+              </div>
+              <div class="swiper-slide">
+                <div class="content wow fadeInLeft" data-wow-delay="2s">
+                  <span class="number">02</span>
+                  <h2 class="hood">The New Game & <br class="empty-br"> awesome concept</h2>
+                  <a href="" class="watch-button">Watch now</a>
+                </div>
+                <img src="https://promo-theme.com/plaxer/wp-content/uploads/2019/12/img22.jpg" 
+                class="slider-image" alt="">
+              </div>
+              <div class="swiper-slide">
+                <div class="content wow fadeInLeft" data-wow-delay="4s">
+                  <span class="number">03</span>
+                  <h2 class="hood">Play with us in & <br class="empty-br"> the all new games</h2>
+                  <a href="" class="watch-button">Watch now</a>
+                </div>
+                <img src="https://promo-theme.com/plaxer/wp-content/uploads/2019/12/img3.jpg" 
+                class="slider-image" alt="">
+              </div>
+            </div>
+            <div class="slider-pag">
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+            <div class="social-media">
+              <ul>
+                <li class="list"><a href="javascript:void(0)"><i class="fab fa-instagram"></i></a></li>
+                <li class="list"><a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="list"><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a></li>
+              </ul>
+            </div>
+        </div>
     </section>
 
 
@@ -70,6 +121,7 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <script src="javascript/javascript.js"></script>
+    <script src="javascript/wow-and-tilt.js"></script>
 
 
   </body>
