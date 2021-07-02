@@ -5,6 +5,9 @@
   --gray-color: #8e8e8e;
   --black-color: #040402;
   --smoke-color: #f5f5f5;
+  --purple-color: #110719;
+  --white-color: #FFFFFF;
+  --border-color: #1E2126;
 }
 
 .effect-title {
@@ -663,5 +666,15 @@ header .mobile-menu .menu-item:hover {
   .empty-br {
     display: none;
   }
+}
+
+/*  ===== Section News  ===== */
+.section-news .bg-news {
+  background: var(--purple-color);
+}
+
+.section-news .bg-news .twitch-stream {
+  background: var(--border-color);
+  border-color: var(--gray-color);
 }
 /*# sourceMappingURL=sass.css.map */
