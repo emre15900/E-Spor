@@ -786,7 +786,7 @@ header {
       justify-content: space-between;
       align-items: center;
       padding: 20px;
-      &:hover{
+      &:hover {
         background: linear-gradient(
           45deg,
           var(--first-color) 15%,
@@ -800,26 +800,26 @@ header {
         padding: 20px 25px;
         justify-content: center;
         align-items: center;
-        img{
+        img {
           max-width: 80px;
           max-height: 80px;
           width: auto;
           height: auto;
           margin-bottom: 8px;
         }
-        .clicklav{
+        .clicklav {
           font-size: 16px;
           font-weight: 600;
           text-transform: uppercase;
           margin-bottom: 8px;
           color: var(--white-color);
         }
-        .number{
+        .number {
           font-size: 18px;
           color: var(--first-color);
         }
       }
-      .and{
+      .and {
         height: 100%;
         font-size: 18px;
         color: var(--white-color);
@@ -828,57 +828,57 @@ header {
         align-items: center;
         font-weight: 600;
       }
-      .second-team{
+      .second-team {
         display: flex;
         flex-direction: column;
         background: rgba(9, 6, 17, 0.7);
         padding: 20px 25px;
         justify-content: center;
         align-items: center;
-        img{
+        img {
           max-width: 80px;
           max-height: 80px;
           width: auto;
           height: auto;
           margin-bottom: 8px;
         }
-        .clicklav{
+        .clicklav {
           font-size: 16px;
           font-weight: 600;
           text-transform: uppercase;
           margin-bottom: 8px;
           color: var(--white-color);
         }
-        .number{
+        .number {
           font-size: 18px;
           color: var(--first-color);
         }
       }
-      .team-title{
+      .team-title {
         display: flex;
         flex-direction: column;
-        .team-hood{
+        .team-hood {
           font-size: 22px;
           font-weight: 700;
           color: var(--white-color);
           text-transform: uppercase;
         }
-        .team-date{
+        .team-date {
           font-size: 16px;
           font-weight: 600;
           color: var(--white-color);
           text-transform: uppercase;
         }
       }
-      .team-twitch{
+      .team-twitch {
         display: flex;
         justify-content: center;
         align-items: center;
-        svg{
+        svg {
           color: var(--white-color);
           margin-right: 10px;
         }
-        .twitch-stream{
+        .twitch-stream {
           color: var(--white-color);
           font-size: 16px;
         }
@@ -887,8 +887,8 @@ header {
   }
 }
 
-.banner-image{
-  background-image: url('https://promo-theme.com/plaxer/wp-content/uploads/2019/12/img14.jpg');
+.banner-image {
+  background-image: url("https://promo-theme.com/plaxer/wp-content/uploads/2019/12/img14.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   height: 500px;
@@ -924,8 +924,8 @@ header {
       text-align: start;
       font-weight: 600;
     }
-    .text{
-      font-size: 18px ;
+    .text {
+      font-size: 18px;
       font-weight: 600;
       color: var(--white-color);
       margin: 30px 0;
@@ -955,6 +955,39 @@ header {
           var(--second-color) 5%,
           var(--first-color) 55%
         );
+      }
+    }
+  }
+}
+
+.social-share {
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .community-social {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    .widget {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      svg {
+        width: 50px;
+        color: var(--white-color);
+      }
+      .points {
+        font-size: 34px;
+        margin: 10px 0;
+        font-weight: 700;
+        color: var(--white-color);
+      }
+      .title {
+        font-size: 18px;
+        font-weight: 400;
+        color: var(--white-color);
       }
     }
   }

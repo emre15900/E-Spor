@@ -1187,4 +1187,63 @@ header .mobile-menu .menu-item:hover {
 .banner-image .content .watch-button:hover {
   background: linear-gradient(120deg, var(--second-color) 5%, var(--first-color) 55%);
 }
+
+.social-share {
+  padding: 100px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social-share .community-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social-share .community-social .widget {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social-share .community-social .widget svg {
+  width: 50px;
+  color: var(--white-color);
+}
+
+.social-share .community-social .widget .points {
+  font-size: 34px;
+  margin: 10px 0;
+  font-weight: 700;
+  color: var(--white-color);
+}
+
+.social-share .community-social .widget .title {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--white-color);
+}
 /*# sourceMappingURL=sass.css.map */
