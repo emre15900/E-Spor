@@ -974,6 +974,7 @@ header {
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      margin-bottom: 25px;
       svg {
         width: 50px;
         color: var(--white-color);
@@ -989,6 +990,25 @@ header {
         font-weight: 400;
         color: var(--white-color);
       }
+    }
+  }
+}
+
+footer{
+  background: var(--purple-color);
+  padding: 10px 0;
+  .copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .text{
+      color: var(--white-color);
+      font-size: 15px;
+      font-weight: 600;
+    }
+    .copy-right{
+      display: flex;
+      justify-content: flex-end;
     }
   }
 }

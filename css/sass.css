@@ -1227,6 +1227,7 @@ header .mobile-menu .menu-item:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 25px;
 }
 
 .social-share .community-social .widget svg {
@@ -1245,5 +1246,37 @@ header .mobile-menu .menu-item:hover {
   font-size: 18px;
   font-weight: 400;
   color: var(--white-color);
+}
+
+footer {
+  background: var(--purple-color);
+  padding: 10px 0;
+}
+
+footer .copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .copyright .text {
+  color: var(--white-color);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+footer .copyright .copy-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 /*# sourceMappingURL=sass.css.map */
