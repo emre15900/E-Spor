@@ -38,6 +38,20 @@
   color: var(--smoke-color) !important;
 }
 
+.backtotop {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  z-index: 999999;
+  background: var(--white-color);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.backtotop:hover {
+  background: #cccccc;
+}
+
 .fa-shopping-cart {
   color: var(--smoke-color);
   margin-left: 10px;
@@ -163,6 +177,12 @@ header .navbar .right-header ul .list a.active span::before {
   bottom: -5px;
   -webkit-transform: skew(-50deg);
           transform: skew(-50deg);
+  -webkit-transition: width 700ms ease;
+  transition: width 700ms ease;
+}
+
+header .navbar .right-header ul .list a.active span:hover::before {
+  width: 18%;
 }
 
 header .navbar .right-header ul .list a:hover {
@@ -767,7 +787,13 @@ header .mobile-menu .menu-item:hover {
   left: 0;
   -webkit-transform: skew(-50deg);
           transform: skew(-50deg);
+  -webkit-transition: width 700ms;
+  transition: width 700ms;
   z-index: 1;
+}
+
+.game-video .content .read-more span:hover::before {
+  width: 18%;
 }
 
 .game-video .game-image img {

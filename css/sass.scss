@@ -42,6 +42,19 @@
   }
 }
 
+.backtotop{
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  z-index: 999999;
+  background: var(--white-color);
+  border-radius: 20px;
+  padding: 20px;
+  &:hover{
+      background: darken(#FFFFFF, 20%);
+  }
+}
+
 .fa-shopping-cart {
   color: var(--smoke-color);
   margin-left: 10px;
@@ -138,6 +151,12 @@ header {
                   position: absolute;
                   bottom: -5px;
                   transform: skew(-50deg);
+                  transition: width 700ms ease;
+                }
+                &:hover{
+                  &::before{
+                    width: 18%;
+                  }
                 }
               }
             }
@@ -657,7 +676,13 @@ header {
           bottom: -5px;
           left: 0;
           transform: skew(-50deg);
+          transition: width 700ms;
           z-index: 1;
+        }
+        &:hover{
+          &::before{
+            width: 18%;
+          }
         }
       }
     }
@@ -1012,3 +1037,4 @@ footer{
     }
   }
 }
+

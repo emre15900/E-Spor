@@ -68,3 +68,32 @@ $(".list").click(function () {
       .show("1000");
   }
 });
+
+//BACK TO TOP
+$(".backtotop").hide();
+
+$(window).scroll(function () {
+  if ($(window).scrollTop() > 300) {
+    $(".backtotop").fadeIn();
+    $("header").css({
+      transition: '500ms',
+      background: '#040402'
+    });
+    $('.section-slider .social-media').css({
+      display: 'none'
+    });
+  } else {
+    $(".backtotop").fadeOut();
+    $("header").css({
+      background: 'transparent'
+    });
+    $('.section-slider .social-media').css({
+      display: 'inline-flex'
+    });
+  }
+});
+
+$(".backtotop").click(function () {
+  $("html,body").animate({ scrollTop: 0 }, 100);
+  return false;
+});
